@@ -1,36 +1,66 @@
 <html>
 	<head>
-		<title>Registration Form</title>
+	 	<title>Registration Form</title>
 	</head>
-	<body>
-		<h1>IBS Bank</h1>
-		<jsp:include page="menu.jsp"/>
-		
-		<h2>Registration</h2>
-		<form action="si" method="POST" >
-			<div>
-				<label>Full Name: </label>
-				<input type="text" name="FullName" required />
-			</div>
-			<div>
-				<label>Gender: </label>
-				<select name="gender" id="Gender">
-  				<option value="male">Male</option>
- 				<option value="female">Female</option>
-  				<option value="other">Other</option>
-				</select>
-			</div>
-			<div>
-				<label>Date Of Disbursement: </label>
-				<input type="date" name="disbursementDate" required />
-			</div>
-			<div>
-				<label>Date Of Payment: </label>
-				<input type="date" name="dueDate" required />
-			</div>
-			<div>
-				<button>SEND</button>
-			</div>
-		</form>
-	</body>
-</html>
+<body>
+	<h1><center>IBS bank</center></h1>
+	<jsp:include page="menu.jsp"/>
+	<table>
+			<tr><td>Full Name</td> 
+			<td><em><input type="text" name="name" required />
+			</em></td>
+			</tr>
+			<tr><td>Date Of Birth</td> 
+			<td><em><input type="date" name="dob" required /></em></td>
+			</tr>
+			<tr><td>Gender</td> 
+			<td>
+      <div class="Gender">
+        <input type="radio" class="radio" name="Gender" value="male" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" class="radio" name="Gender" value="Female" id="Female" />
+        <label for="female">Female</label>
+        <input type="radio" class="radio" name="Gender" value="Other" id="Other" />
+        <label for="Other">Other</label>
+      </div>
+    </td>
+			</tr>
+			<tr><td>Email Id</td> 
+			<td><em><input type="text" name="emailId" required /></em></td>
+			</tr>
+			<tr><td>Mobile Num </td> 
+			<td><em><input type="text" name="mobileNum" required /></em></td>
+			</tr>
+			<tr><td>Address</td> 
+			<td><em><input type="text" name="address" required /></em></td>
+			</tr>
+			<tr><td>City</td> 
+			<td><em><input type="text" name="city" required /></em></td>
+			</tr>
+			<tr><td>PinCode</td> 
+			<td><em><input type="text" name="pinCode" required /></em></td>
+			</tr>
+			<tr><td>Role Name</td> 
+			<td><em><select name = "">
+					<option>Service Provider</option>
+					<option>Customer</option>
+					</select>	
+				</em></td>
+			</tr>
+			<tr><td>Account Type</td> 
+			<td><em>
+			<input type="checkbox" id="Savings Account" name="Savings Account" >
+ 			 <label for="Savings Account">Savings Account</label>
+  			<input type="checkbox" id="Recurring Deposit Account" name="Recurring Deposit Account">
+  			<label for="Recurring Deposit Account">Recurring Deposit</label>
+  			<input type="checkbox" id="Fixed Deposit Account" name="Fixed Deposit Account">
+  			<label for="Fixed Deposit Account">Fixed Deposit</label>
+					</em></td>
+			</tr>
+			<tr><td>KYC Document</td> 
+			<td><em><input type="file" name="KYCIdentityProof" required /></em></td>
+			</tr>
+			<tr><td><button>Submit</button></td> 
+			<td><em></em></td>
+			</tr>
+</table>

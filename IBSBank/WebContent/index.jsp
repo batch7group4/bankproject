@@ -10,5 +10,10 @@
 		<p>
 		 Welcome to IBS Bank
 		 </p>
+		 <img src="C:\Users\Vinay\git\bankproject1\IBSBank\WebContent\WEB-INF\images\IBS.JPG" 
+		 alt="ibsbank" width="80" height="80" style="vertical-align:bottom">
+		 
+		 
+		
 	</body>
 </html>
