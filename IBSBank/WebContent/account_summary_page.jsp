@@ -24,6 +24,8 @@
     <li><a href="about.jsp">ABOUT US</a></li>
     </ul>
     <jsp:include page="test2include.jsp"/>
+    
+    
 </div>
 
 
