@@ -3,6 +3,8 @@
 		<title>IBS Home</title>
 	</head>
 	<body>
+		<body style="background-color:skyblue;">
+    </body>
 		<h1>IBS Bank</h1>
 		<jsp:include page="menu.jsp"/>
 		

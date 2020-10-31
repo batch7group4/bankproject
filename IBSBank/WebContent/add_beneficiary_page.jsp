@@ -10,7 +10,7 @@
 			<td><em><input type="text" name="Beneficiary name" required />
 			</em></td>
 			
-			<tr><td>Role Name</td> 
+			<tr><td>Bank Name</td> 
 			<td><em><select Bank Name = "">
 					<option>Kotak Bank</option>
 					<option>State Bank of India</option>
