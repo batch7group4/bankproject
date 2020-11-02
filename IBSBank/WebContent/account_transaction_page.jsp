@@ -3,10 +3,9 @@
 	 	<title>Registration Form</title>
 	</head>
 <body>
-	<h1><center>IBS bank</center></h1>
 	<jsp:include page="menu.jsp"/>
 	<table>
-	<h5>Fund Transfers</h5>
+	<h3>Fund Transfers</h3>
 			<tr><td>
 				Payment From </td>
 				<td><input type="textbox" name="fromAccount" required /></td>

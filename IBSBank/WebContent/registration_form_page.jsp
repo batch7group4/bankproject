@@ -3,7 +3,6 @@
 	 	<title>Registration Form</title>
 	</head>
 <body>
-	<h1><center>IBS bank</center></h1>
 	<jsp:include page="menu.jsp"/>
 	<table>
 			<tr><td>Full Name</td> 
@@ -23,8 +22,7 @@
         <input type="radio" class="radio" name="Gender" value="Other" id="Other" />
         <label for="Other">Other</label>
       </div>
-    </td>
-			</tr>
+    	</td></tr>
 			<tr><td>Email Id</td> 
 			<td><em><input type="text" name="emailId" required /></em></td>
 			</tr>

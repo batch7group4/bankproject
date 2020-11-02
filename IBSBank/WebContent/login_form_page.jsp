@@ -4,7 +4,6 @@
 	 	<title>IBS Login</title>
 	</head>
 <body>
-	<h1><center>IBS bank</center></h1>
 	<jsp:include page="menu.jsp"/>
 	<!-- <body style="background-color:blue;text-align:center">
     welcome to my page

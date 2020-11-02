@@ -1,12 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
-</html>
+	<head>
+	 	<title>Statement Form</title>
+	</head>
+	<jsp:include page="menu.jsp"/>
+	<h3>Account Statement</h3>
+	<table >
+			
+			<tr><td>From Date</td> 
+			<td><em><input type="date" name="fromdt" required /></em></td>
+			</tr>
+			<tr><td>To Date</td> 
+			<td><em><input type="date" name="todt" required /></em></td>
+			</tr>
+			
+			<tr><td><button>Submit</button></td> 
+			<td><em></em></td>
+			</tr>
+</table>

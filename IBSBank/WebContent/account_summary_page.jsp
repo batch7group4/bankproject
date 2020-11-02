@@ -6,32 +6,35 @@
 <title>Account Summary Page</title>
 </head>
 <body>
-<h1><center>IBS bank</center></h1>
 	<jsp:include page="menu.jsp"/>
+	<jsp:include page="Logout_page.jsp"/>
 	<h2>Quick Links</h2>
-	
-
-
 <div id="navigation">
     <ul>
-    <li><a href="account_statetment_page.jsp">Account Statement</a></li>
+    <li><a href="account_statement_page.jsp">Account Statement</a></li>
     <li><a href="account_transaction_page.jsp">Fund Transfer</a></li>
-    <li><a href="balance1.jsp">BALANCE</a></li>
-    <li><a href="deposit1.jsp">DEPOSIT</a></li>
-    <li><a href="withdraw1.jsp">WITHDRAW</a></li>
-    <li><a href="transfer1.jsp">TRANSFER</a></li>
+    <li><a href="beneficiary_form_page.jsp">Beneficiaries</a></li>
     <li><a href="bill_payments.jsp">Bill Payments</a></li>
-    <li><a href="about.jsp">ABOUT US</a></li>
     </ul>
-    <jsp:include page="test2include.jsp"/>
-    
-    
+  
+  
+  <h2><center>Account Summary</h2>
+   <table style="float:top;width:400px; margin:0 auto;">
+	
+		<tr><td>
+					<tr><td>Account Number:</td><td> <input type="text" name="accountNumber"/></td></tr>
+					<tr><td>Account Name:</td><td> <input type="text" name="accountName"/></td></tr>
+					<tr><td>Account Type:</td><td>
+					<select name = "">
+					<option>Savings</option>
+					<option>Current</option>
+					</select>	
+					</td></tr>
+					<tr><td>Balance:</td><td> <input type="text" name="balance"/></td></tr>
+					
+	</table>   
 </div>
 
-
-
-
-	<jsp:include page="Logout_page.jsp"/>
 
 	
 </body>
