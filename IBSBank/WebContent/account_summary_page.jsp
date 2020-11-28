@@ -4,6 +4,7 @@
 <html>
 <head>
 <title>Account Summary Page</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 	<jsp:include page="menu.jsp"/>

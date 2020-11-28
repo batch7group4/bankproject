@@ -1,8 +1,9 @@
+<html>
 <body>
-		<body style="background-color:AliceBlue;">
-    </body>
+		<!-- <body style="background-color:AliceBlue;">
+    </body> -->
 	
-		 <img src="images/ibsbank.png" 
+		 <img class="image" src="images/ibsbank.png" 
 		 alt="ibsbank" width="300" height="120" style="vertical-align:bottom">
 <nav>
 	<hr />
@@ -25,3 +26,4 @@
 	
 	<hr />
 </nav>
+</html>

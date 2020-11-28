@@ -5,7 +5,7 @@
 <head>
 <title>Logout Button</title>
 <body>
-    <button class="btn" style="height:30px;width:80px;float:right;background-color:blue; border-color:black; color:white">Logout</button> 
+    <button class="btn" style="height:30px;width:80px;float:right;background-color:dodgerblue; color:white">Logout</button> 
 </body>
 </head>
 </html>

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Mali');
+       body{
+           font-family: 'Mali',cursive;
+           background-color: AliceBlue;
+           
+       }
+       
+
+        header{
+           background-color: black;
+        }
+        p{font-family: georgia,garamond,serif;
+        	font-size:18px;
+        	font-style:italic;}
+        	
+        	table{
+          /*  padding: 3% 30%;
+           text-align: center;
+           color: black;
+           font-size: 1.5em;
+           font-family: 'Mali',cursive; */
+            /*  border:2px solid #ccc; */
+           width:30%;
+		   margin:20px 20px;
+		   height:30px;
+		 
+		   
+       			}
+	       button {
+		width:8%;
+		height:35px;
+		background:dodgerblue;
+		color:#fff;
+		text-align:center;
+		font-size:15px;
+		margin:1px 20px;
+		border:none;
+	}

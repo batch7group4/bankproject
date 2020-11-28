@@ -46,12 +46,9 @@
 			</td>
 			</tr>
 			
-			<tr><td>
+</table>
 			<button type="save" class="savebtn">Save</button>  
 			<button type="cancel" class="cancelbtn"> Cancel</button>
-			</tr></td>
 			
-		
-</table>
 </body>
 </html>

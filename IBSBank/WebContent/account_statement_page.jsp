@@ -1,6 +1,7 @@
 <html>
 	<head>
 	 	<title>Statement Form</title>
+	 	<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	<jsp:include page="menu.jsp"/>
 	<h3>Account Statement</h3>
@@ -13,7 +14,7 @@
 			<td><em><input type="date" name="todt" required /></em></td>
 			</tr>
 			
-			<tr><td><button>Submit</button></td> 
-			<td><em></em></td>
-			</tr>
 </table>
+
+<button>Submit</button>
+</html>

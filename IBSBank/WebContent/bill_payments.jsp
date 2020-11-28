@@ -1,10 +1,10 @@
 <html>
 	<head>
 	 	<title>Bill Payments page</title>
+	 	<jsp:include page="menu.jsp"/>
+	 	<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 <body>
-	
-			<jsp:include page="menu.jsp"/>
 	
 		     <li>
                 <a href="mobileprepaid.jsp">Mobile Prepaid</a>

@@ -1,6 +1,7 @@
 <html>
 	<head>
 	 	<title>Registration Form</title>
+	 	<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 <body>
 	<jsp:include page="menu.jsp"/>
@@ -58,7 +59,6 @@
 			<tr><td>KYC Document</td> 
 			<td><em><input type="file" name="KYCIdentityProof" required /></em></td>
 			</tr>
-			<tr><td><button>Submit</button></td> 
-			<td><em></em></td>
-			</tr>
+			
 </table>
+<button>Submit</button>

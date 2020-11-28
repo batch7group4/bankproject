@@ -1,6 +1,7 @@
 <html>
 	<head>
 	 	<title>Registration Form</title>
+	 	<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 <body>
 	<jsp:include page="menu.jsp"/>
@@ -32,10 +33,9 @@
 				Remarks </td>
 				<td><input type="text" name="Remarks" /></td>
 			</tr>
-	<tr><td><button>Transfer Amount</button></td> 
-	<td><button>Cancel</button></td> 
-			<td><em></em></td>
-			</tr>
 	</table>
+	
+	<button>Transfer Amount</button> 
+	<button>Cancel</button>
 </body>
 </html>
